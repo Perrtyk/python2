@@ -22,7 +22,8 @@ def palindrome(s):
         return False
 
 def main():
-    userInput = input().lower()
+    print('Welcome to the Palindrome Word Tester. . .\n')
+    userInput = input('Word to Test: ').lower()
     cleanedString = ''
     for char in userInput:
         if char in "abcdefghijklmnopqrstuvwxyz":

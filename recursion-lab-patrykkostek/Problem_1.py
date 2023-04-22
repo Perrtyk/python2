@@ -28,6 +28,6 @@ if __name__ == '__main__':
     main()
 
 
-# I initially stuggled with the understanding of recursion. This was a great first problem as it is not too difficult
+# I initially struggled with the understanding of recursion. This was a great first problem as it is not too difficult
 # to grasp. I mainly had issues with the call of the function and was having a hard time understanding how recursion works
 # as a whole. Working through this problem slowly made it easier to understand.

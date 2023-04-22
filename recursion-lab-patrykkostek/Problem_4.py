@@ -21,7 +21,9 @@ def main(plates):
 
 
 if __name__ == '__main__':
-    main(3)
+    print('Welcome to Tower of Hanoi\n')
+    disks = input('How many disks would you like to start with: ')
+    main(int(disks))
 
 # This problem was a lot more challenging but after reviewing multiple resources I gained the understanding to solve it.
 # This problem has a base case of 1, with the last action being moving the disk 1 from stick a to c as this is the final
